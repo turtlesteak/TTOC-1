@@ -157,8 +157,7 @@ Purple: #6e25a4
     color: #6e25a4;
 }
 
-
-/* Paddiing and margins */
+/* Padding and margins */
 .textdivmargin {
     padding: 0 0 0 0;
     margin-top: auto;
@@ -285,6 +284,19 @@ hr {
     height: 12px;
     border-top: 1px solid black;
     margin: 0px 0px 0px 0px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.fill img {
+    object-fit: cover;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 /* Footer items */
