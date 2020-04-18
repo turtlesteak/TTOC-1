@@ -58,7 +58,7 @@ Purple: #6e25a4
 }
 
 .yback a:hover {
-    color: #6e25a4;
+    color: #000;
 }
 
 .pback {
@@ -90,7 +90,7 @@ Purple: #6e25a4
 }
 
 .pback a:hover {
-    color: #F1C439;
+    color: #000;
 }
 
 .whiteback {
@@ -122,7 +122,7 @@ Purple: #6e25a4
 }
 
 .whiteback a:hover {
-    color: #6e25a4;
+    color: #000;
 }
 
 .blackback {
@@ -154,7 +154,7 @@ Purple: #6e25a4
 }
 
 .blackback a:hover {
-    color: #F1C439;
+    color: #6e25a4;
 }
 
 
@@ -293,39 +293,42 @@ hr {
     border-top: 15px solid black;
 }
 
+.fbtn {
+    background-color: #6e25a4;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+.fbtn:hover {
+    background-color: #F1C439;
+    color: #000 !important;
+    border: 2px solid #000;
+}
+
 /* Buttons */
-.btn-light {
+.yback .btn {
     background-color: #6e25a4;
     color: #fff !important;
-    border: #fff;
+    border: 2px solid #fff;
 }
 
-.btn-light:hover {
+.yback .btn:hover {
+    background-color: #F1C439;
+    color: #000!important;
+    border: 2px solid #000;
+}
+
+.pback .btn {
+    background-color: #F1C439;
+    color: #000 !important;
+    border: 2px solid #000;
+}
+
+.pback .btn:hover {
     background-color: #6e25a4;
     color: #fff !important;
+    border: 2px solid #fff;
 }
-
-.btn-light:visited {
-    background-color: #6e25a4;
-    color: #fff !important;
-}
-
-.btn-dark {
-    background-color: #F1C439;
-    color: #000 !important;
-    border: #000;
-}
-
-.btn-dark:hover {
-    background-color: #F1C439;
-    color: #000 !important;
-}
-
-.btn-dark:visited {
-    background-color: #F1C439;
-    color: #000 !important;
-}
-
 
 /* Manual */
 .purple {
@@ -348,5 +351,12 @@ hr {
     font-family: 'TankTrouble', sans-serif !important;
     font-size: 16px !important;
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 /* 23rd December 2004 */
