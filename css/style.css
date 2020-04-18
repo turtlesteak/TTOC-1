@@ -1,4 +1,4 @@
-@import url(/media/fonts/TankTrouble.ttf);
+@font-face{font-family:TankTrouble;src:url(../media/fonts/TankTrouble.ttf)}
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto&display=swap');
 
 /* 
@@ -292,6 +292,7 @@ hr {
     align-items: center;
     overflow: hidden;
 }
+
 .fill img {
     object-fit: cover;
     flex-shrink: 0;
