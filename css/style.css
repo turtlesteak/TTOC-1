@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @font-face{font-family:TankTrouble;src:url(../media/fonts/TankTrouble.ttf)}
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto&display=swap');
+
 
 /* 
 Yellow: #F1C439
@@ -90,7 +91,7 @@ Purple: #6e25a4
 }
 
 .pback a:hover {
-    color: #000;
+    color: #fff;
 }
 
 .whiteback {
@@ -214,14 +215,12 @@ a:visited:hover {
 
 p {
     display: block;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif !important;
     text-decoration: none;
     font-size: 19px;
 }
 
 li {
-    font-family: 'Roboto', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
     text-decoration: none;
     font-size: 19px;
@@ -365,11 +364,17 @@ hr {
     font-size: 16px !important;
 }
 
-.centered {
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bottom-right {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+    bottom: 0%;
+    right: 0%;
+    width: 40%;
+    height: auto;
+}
 
 /* 23rd December 2004 */
