@@ -275,6 +275,7 @@ h2 {
 .row {
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 hr {
@@ -364,17 +365,30 @@ hr {
     font-size: 16px !important;
 }
 
-.container {
+/* Image inside image */
+.weaponunder {
     position: relative;
     text-align: center;
     color: white;
 }
+
 .bottom-right {
     position: absolute;
     bottom: 0%;
     right: 0%;
-    width: 40%;
-    height: auto;
+}
+
+.rotate {
+    animation: rotation 12s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 /* 23rd December 2004 */
