@@ -217,13 +217,13 @@ p {
     display: block;
     font-family: 'Lexend Deca', sans-serif !important;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 li {
     font-family: 'Lexend Deca', sans-serif;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 h1 {
@@ -362,7 +362,7 @@ hr {
 
 .ttfont {
     font-family: 'TankTrouble', sans-serif !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 
 /* Image inside image */
