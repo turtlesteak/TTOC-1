@@ -267,6 +267,19 @@ h2 {
     color: #6e25a4;
 }
 
+.rbtn {
+    background-color: #F1C439;
+    color: #000 !important;
+    border: 2px solid #000;
+}
+
+.rbtn:hover {
+    background-color: #6e25a4;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+
 /* Content */
 .main {
     margin: 0px 0px 0px 0px;
