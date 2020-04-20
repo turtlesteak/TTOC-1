@@ -369,7 +369,6 @@ hr {
 .weaponunder {
     position: relative;
     text-align: center;
-    color: white;
 }
 
 .bottom-right {
@@ -378,6 +377,7 @@ hr {
     right: 0%;
 }
 
+/* Rotation code */
 .rotate {
     animation: rotation 12s infinite linear;
 }
