@@ -160,7 +160,8 @@ Purple: #6e25a4
 
 /* Padding and margins */
 .textdivmargin {
-    padding: 0 0 0 0;
+    padding-left: 0;
+    padding-right: 0;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -236,6 +237,11 @@ h2 {
     font-size: 20px;
 }
 
+.ttfont {
+    font-family: 'TankTrouble', sans-serif !important;
+    font-size: 14px !important;
+}
+
 /* Navigation Bar */
 .nonstick {
     text-align: center;
@@ -289,6 +295,19 @@ h2 {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px 0px 0px 0px;
+}
+
+.divpad {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.toppad {
+    padding-top: 15px;
+}
+
+.botpad {
+    padding-bottom: 15px;
 }
 
 hr {
@@ -371,11 +390,6 @@ hr {
 
 .black {
     color: black !important; 
-}
-
-.ttfont {
-    font-family: 'TankTrouble', sans-serif !important;
-    font-size: 14px !important;
 }
 
 /* Image inside image */
