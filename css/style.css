@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @font-face{
     font-family: 'TankTrouble';
-    src:url('/css/fonts/TankTrouble.eot');
-    src:url('/css/fonts/TankTrouble.eot?#iefix') format('embedded-opentype'),
-    url('/css/fonts/TankTrouble.woff2') format('woff2'),
-    url('/css/fonts/TankTrouble.woff') format('woff'),
-    url('/css/fonts/TankTrouble.ttf')  format('truetype'),
-    url('/css/fonts/TankTrouble.svg') format('svg');;
+    src:url('../media/fonts/TankTrouble.eot');
+    src:url('../media/fonts/TankTrouble.eot?#iefix') format('embedded-opentype'),
+    url('../media/fonts/TankTrouble.woff2') format('woff2'),
+    url('../media/fonts/TankTrouble.woff') format('woff'),
+    url('../media/fonts/TankTrouble.ttf')  format('truetype'),
+    url('../media/fonts/TankTrouble.svg') format('svg');;
 }
 
 /* 
