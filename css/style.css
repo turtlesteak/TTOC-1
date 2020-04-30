@@ -296,6 +296,7 @@ h2 {
 /* Content */
 .main {
     margin: 0px 0px 0px 0px;
+    word-wrap: break-word;
 }
 
 .row {
