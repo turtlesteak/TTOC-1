@@ -11,5 +11,7 @@ For more info, head to the [About](https://samc7.github.io/TTOC/html/About.html)
 
 # Credits
 HTML by [samc7](https://github.com/samc7)
+
 3D images by [CommanderAnime](https://github.com/CommanderAnime/)
+
 2D images by Spiros04
