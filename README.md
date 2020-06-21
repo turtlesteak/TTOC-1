@@ -7,7 +7,7 @@ As the years passed by, I was promoted to moderator status in the community. Thi
 to better organize the compeititon in line with official events, as well as allowed me to
 directly receive support from the developers for prizes, as well as an exclusive yearly accessory.
 
-For more info, head to the [About](https://samc7.github.io/TTOC/html/About.html) page.
+For more information, head to the [About](https://samc7.github.io/TTOC/html/About.html) page.
 
 # Credits
 HTML by [samc7](https://github.com/samc7)
