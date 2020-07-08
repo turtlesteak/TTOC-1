@@ -69,7 +69,7 @@
         </nav>
 
         <div class="main">
-            <div class="pback row center">
+            <div class="yback row center">
                 <div class="col-sm-4 row textdivmargin">
                     <div class="col-sm-4 divpad">
                         <img class="rotate" src="../media/weapons/rbullet.png">
@@ -112,118 +112,12 @@
                 </div>
             </div>
 
-            <div class="yback row">
+            <div class="pback row">
                 <div class="col-sm-4 textdivmargin textpad divpad">
                     <h2 class="center">
                         The Current Gamemode:
                     </h2>
 
-                    <h1 class="center">
-                        Weapons
-                    </h1>
-
-                    <p class="justify">
-                        Bullets are underkill. Destroy your opponent with the weapon of your choice. After all,
-                        that crate did spawn just for you! Go on... you know you want that weapon...
-                    </p>
-
-                    <ul>
-                        <li>
-                            A battle without bullets, only weapons from crates.
-                        </li>
-                        <li>
-                            Both players start with only one weapon loaded.
-                        </li>
-                        <li>
-                            Players will start in one of the outer corners of the maze, which they must "claim" by 
-                            announcing it in chat, while being in the corner with a weapon.
-                        </li>
-                        <li>
-                            Players may pick up and use all weapons infinitely after the round starts.
-                        </li>
-                        <li>
-                            Players may only pick up and dispose of weapons to clear paths, and shields to allow spawns.
-                        </li>
-                        <li>
-                            A round begins when players are in their claimed corners with a weapon, and Spectator tanks are destroyed.
-                        </li>
-                        <li>
-                            First player with at least 15 wins with a 2 win difference, wins.
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin center textpad divpad">
-                    <h2 class="center">
-                        All weapons allowed, no regular bullets
-                    </h2>
-
-                    <p class="center">
-                        Shields allowed only after match begins
-                    </p>
-
-                    <img src="../media/gamemodes/weapon.png">
-                </div>
-                    
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-                    
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/lock.png">
-                    </div>
-                    
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                
-                <div class="col-sm-4 textdivmargin textpad center divpad">
-                    <h2 class="center">
-                        Tanks starting in the farthest corners of the maze
-                    </h2>
-
-                    <div class="row">
-                        <div class="col"></div>
-                        
-                        <div class="col-sm-9">
-                            <img src="../media/mazes/weapon.png">
-                        </div>
-                        
-                        <div class="col"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pback row">
-                <div class="col-sm-4 textdivmargin textpad divpad">
                     <h1 class="center">
                         Golf
                     </h1>
@@ -236,25 +130,22 @@
                     
                     <ul>
                         <li>
-                            Players take turns shooting at each other on the spot with a single bullet until one dies.
+                            Players shoot at each other at the same time by only using turning controls
                         </li>
                         <li>
-                            Players may only use keyboard controls.
+                            Each round will have two subrounds of aiming, each started by one of the two spectator tanks being destroyed
                         </li>
                         <li>
-                            The first shooter alternates every match.
+                            If both bullets despawn, each player will move to the location of their despawned bullet.
                         </li>
                         <li>
-                            Aiming and dodging is only allowed by pivoting on the spot.
-                        </li>
-                        <li>
-                            If a bullet despawns, the shooter will move to the location of the bullet to end their turn.
+                            Aiming, dodging and shooting is only allowed by pivoting on the spot. You may only move forward and back when travelling to your new shooting spot.
                         </li>
                         <li>
                             Dispose of weapons if necessary.
                         </li>
                         <li>
-                            A round begins when Spectator tanks are destroyed.
+                            If a player moves forward or back when not allowed, the opponent receives a point, and the round will not count.
                         </li>
                         <li>
                             First player with at least 15 wins with a 2 win difference, wins.
@@ -530,9 +421,116 @@
                     </div>
                 </div>
             </div>
+
+            <div class="yback row">
+                <div class="col-sm-4 textdivmargin textpad divpad">
+
+                    <h1 class="center">
+                        Weapons
+                    </h1>
+
+                    <p class="justify">
+                        Bullets are underkill. Destroy your opponent with the weapon of your choice. After all,
+                        that crate did spawn just for you! Go on... you know you want that weapon...
+                    </p>
+
+                    <ul>
+                        <li>
+                            A battle without bullets, only weapons from crates.
+                        </li>
+                        <li>
+                            Both players start with only one weapon loaded.
+                        </li>
+                        <li>
+                            Players will start in one of the outer corners of the maze, which they must "claim" by 
+                            announcing it in chat, while being in the corner with a weapon.
+                        </li>
+                        <li>
+                            Players may pick up and use all weapons infinitely after the round starts.
+                        </li>
+                        <li>
+                            Players may only pick up and dispose of weapons to clear paths, and shields to allow spawns.
+                        </li>
+                        <li>
+                            A round begins when players are in their claimed corners with a weapon, and Spectator tanks are destroyed.
+                        </li>
+                        <li>
+                            First player with at least 15 wins with a 2 win difference, wins.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-1 textdivmargin nopad">
+                    <div class="weaponunder textpad">
+                        <img src="../media/weapons/bullet.png">
+
+                        <img class="bottom-left" src="../media/icons/reject.png">
+                    </div>
+
+                    <div class="weaponunder textpad">
+                        <img src="../media/weapons/laser.png">
+
+                        <img class="bottom-left" src="../media/icons/approve.png">
+                    </div>
+
+                    <div class="weaponunder textpad">
+                        <img src="../media/weapons/dt.png">
+
+                        <img class="bottom-left" src="../media/icons/approve.png">
+                    </div>
+                </div>
+                    
+                <div class="col-sm-2 textdivmargin center textpad divpad">
+                    <h2 class="center">
+                        All weapons allowed, no regular bullets
+                    </h2>
+
+                    <p class="center">
+                        Shields allowed only after match begins
+                    </p>
+
+                    <img src="../media/gamemodes/weapon.png">
+                </div>
+                    
+                <div class="col-sm-1 textdivmargin nopad">
+                    <div class="weaponunder textpad">
+                        <img src="../media/weapons/shotgun.png">
+
+                        <img class="bottom-right" src="../media/icons/approve.png">
+                    </div>
+                    
+                    <div class="weaponunder textpad">
+                        <img src="../media/weapons/shield.png">
+
+                        <img class="bottom-right" src="../media/icons/lock.png">
+                    </div>
+                    
+                    <div class="weaponunder textpad">
+                        <img src="../media/weapons/homing.png">
+
+                        <img class="bottom-right" src="../media/icons/approve.png">
+                    </div>
+                </div>
+                
+                <div class="col-sm-4 textdivmargin textpad center divpad">
+                    <h2 class="center">
+                        Tanks starting in the farthest corners of the maze
+                    </h2>
+
+                    <div class="row">
+                        <div class="col"></div>
+                        
+                        <div class="col-sm-9">
+                            <img src="../media/mazes/weapon.png">
+                        </div>
+                        
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
             
             <!-- COMMUNITY GAMEMODE STUFF -->
-            <div class="yback row">
+            <div class="pback row">
                 <div class="col-sm-3 center textdivmargin divpad textpad">
                     <img class="rotate" src="../media/weapons/tankshield.png">
                 </div>
