@@ -10,9 +10,28 @@
 }
 
 /* 
-Yellow: #F1C439
-Purple: #6e25a4
+yellow: #ddb135 
+purple: #6e25a4
 */
+
+:root {
+    --yellow: #F1C439; 
+    --purple: #6e25a4;
+    --first-bg: #F1C439;
+    --first-title: #6e25a4;
+    --first-text: black;
+    --second-bg: #6e25a4;
+    --second-title: #F1C439;
+    --second-text: white;
+}
+
+.divpad img { 
+    filter:drop-shadow(2px 2px 6px #0000008a);
+}
+
+.pback,.yback,.blackback {
+    box-shadow:0px 0px 40px #0000008a;
+}
 
 /* Alignments */
 .left {
@@ -38,67 +57,67 @@ Purple: #6e25a4
 
 /* backgrounds */
 .yback {
-    background-color: #F1C439;
+    background-color: var(--first-bg);
 }
 
 .yback h1 {
-    color: #6e25a4;
+    color: var(--first-title);
 }
 
 .yback h2 {
-    color: #6e25a4;
+    color: var(--first-title);
 }
 
 .yback p {
-    color: #000;
+    color: var(--first-text);
 }
 
 .yback li {
-    color: #000;
+    color: var(--first-text);
 }
 
 .yback a {
-    color: #6e25a4;
+    color: var(--first-title);
 }
 
 .yback a:visited {
-    color: #6e25a4;
+    color: var(--first-title);
 }
 
 .yback a:hover {
-    color: #000;
+    color: var(--first-title);
 }
 
 .pback {
-    background-color: #6e25a4;
+    background-color: var(--second-bg);
 }
 
 .pback h1 {
-    color: #F1C439;
+    color: var(--second-title);
 }
 
 .pback h2 {
-    color: #F1C439;
+    color: var(--second-title);
 }
 
 .pback p {
-    color: #fff;
+    color: var(--second-text);
 }
 
 .pback li {
-    color: #fff;
+    color: var(--second-text);
 }
 
 .pback a {
-    color: #F1C439;
+    color: var(--second-title);
 }
 
 .pback a:visited {
-    color: #F1C439;
+    color: var(--second-title);
 }
 
 .pback a:hover {
-    color: #fff;
+    color: var(--second-title);
 }
 
 .whiteback {
@@ -106,11 +125,11 @@ Purple: #6e25a4
 }
 
 .whiteback h1 {
-    color: #6e25a4;
+    color: var(--purple);
 }
 
 .whiteback h2 {
-    color: #6e25a4;
+    color: var(--purple);
 }
 
 .whiteback p {
@@ -122,15 +141,15 @@ Purple: #6e25a4
 }
 
 .whiteback a {
-    color: #6e25a4;
+    color: var(--purple);
 }
 
 .whiteback a:visited {
-    color: #6e25a4;
+    color: var(--purple);
 }
 
 .whiteback a:hover {
-    color: #000;
+    color: var(--yellow);
 }
 
 .blackback {
@@ -138,31 +157,31 @@ Purple: #6e25a4
 }
 
 .blackback h1 {
-    color: #F1C439;
+    color: var(--yellow);
 }
 
 .blackback h2 {
-    color: #F1C439;
+    color: var(--yellow);
 }
 
 .blackback p {
-    color: #fff;
+    color: white;
 }
 
 .blackbacl li {
-    color: #fff;
+    color: white;
 }
 
 .blackback a {
-    color: #F1C439;
+    color: var(--yellow);
 }
 
 .blackback a:visited {
-    color: #F1C439;
+    color: var(--yellow)
 }
 
 .blackback a:hover {
-    color: #6e25a4;
+    color: var(--purple);
 }
 
 /* Padding and margins */
@@ -246,7 +265,6 @@ h2 {
 
 .ttfont {
     font-family: 'TankTrouble', sans-serif !important;
-    font-size: 14px !important;
 }
 
 /* Navigation Bar */
@@ -273,21 +291,21 @@ h2 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #F1C439;
+    color: var(--first-bg) ;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #6e25a4;
+    color: var(--second-bg);
 }
 
 .rbtn {
-    background-color: #F1C439;
+    background-color: var(--first-bg) ;
     color: #000 !important;
     border: 2px solid #000;
 }
 
 .rbtn:hover {
-    background-color: #6e25a4;
+    background-color: var(--second-bg);
     color: #fff !important;
     border: 2px solid #fff;
 }
@@ -306,16 +324,16 @@ h2 {
 }
 
 .divpad {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .toppad {
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .botpad {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 hr {
@@ -348,49 +366,49 @@ hr {
 }
 
 .fbtn {
-    background-color: #6e25a4;
+    background-color: var(--second-bg);
     color: #fff !important;
     border: 2px solid #fff;
 }
 
 .fbtn:hover {
-    background-color: #F1C439;
+    background-color: var(--first-bg) ;
     color: #000 !important;
     border: 2px solid #000;
 }
 
 /* Buttons */
 .yback .btn {
-    background-color: #6e25a4;
+    background-color: var(--second-bg);
     color: #fff !important;
     border: 2px solid #fff;
 }
 
 .yback .btn:hover {
-    background-color: #F1C439;
+    background-color: var(--first-bg) ;
     color: #000!important;
     border: 2px solid #000;
 }
 
 .pback .btn {
-    background-color: #F1C439;
+    background-color: var(--first-bg) ;
     color: #000 !important;
     border: 2px solid #000;
 }
 
 .pback .btn:hover {
-    background-color: #6e25a4;
+    background-color: var(--second-bg);
     color: #fff !important;
     border: 2px solid #fff;
 }
 
 /* Manual */
 .purple {
-    color: #6e25a4 !important;
+    color: var(--second-bg) !important;
 }
 
 .yellow {
-    color: #F1C439 !important;
+    color: var(--first-bg)  !important;
 }
 
 .white {
@@ -432,5 +450,3 @@ hr {
         transform: rotate(359deg);
     }
 }
-
-/* 23rd December 2004 */
