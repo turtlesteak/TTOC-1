@@ -10,7 +10,7 @@ directly receive support from the developers for prizes, as well as an exclusive
 For more information, head to the [About](https://samn-c.github.io/TTOC/html/About.html) page.
 
 # Credits
-HTML by [samc7](https://github.com/samn-c)
+HTML by [samn-c](https://github.com/samn-c)
 
 3D images by [CommanderAnime](https://github.com/CommanderAnime/)
 
