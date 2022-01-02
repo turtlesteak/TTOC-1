@@ -1,6 +1,6 @@
 # [TankTrouble Online Competition](https://samn-c.github.io/TTOC)
 This is the official website for TTOC, a competition which I started in late 2016 as a way to
-provide the TankTrouble community with means of ranking eachother in different gamemodes, to test
+provide the TankTrouble community with means of ranking each other in different gamemodes, to test
 different skills.
 
 As the years passed by, I was promoted to moderator status in the community. This gave me a chance 
