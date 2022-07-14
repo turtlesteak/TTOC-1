@@ -450,3 +450,21 @@ hr {
         transform: rotate(359deg);
     }
 }
+
+/* timezone section */
+.tz {
+    text-align: center;
+}
+.local, .utc {
+    padding: 25px;
+}
+#local, #utc {
+    font-size: 24px;
+}
+
+.slogan {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    word-break: break-word;
+}
