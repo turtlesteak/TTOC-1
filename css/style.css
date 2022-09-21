@@ -468,3 +468,32 @@ hr {
     justify-content: space-between;
     word-break: break-word;
 }
+
+.mirror {
+    animation: mirror 2s infinite linear;
+}
+@keyframes mirror {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.elite_table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 35%;
+    margin: 0 auto;
+}
+th, tr:nth-child(even) {
+    background-color: var(--first-bg);
+}
+tr:nth-child(odd) {
+    background-color: white;
+
+}
