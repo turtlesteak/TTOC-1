@@ -23,6 +23,8 @@ purple: #6e25a4
     --second-bg: #6e25a4;
     --second-title: #F1C439;
     --second-text: white;
+    --elite-first: #1e1f24;
+    --elite-second: #111216;
 }
 
 .divpad img { 
@@ -60,11 +62,11 @@ purple: #6e25a4
     background-color: var(--first-bg);
 }
 
-.yback h1 {
+.yback h1, .eliteback h1 {
     color: var(--first-title);
 }
 
-.yback h2 {
+.yback h2, .eliteback h2 {
     color: var(--first-title);
 }
 
@@ -76,15 +78,15 @@ purple: #6e25a4
     color: var(--first-text);
 }
 
-.yback a {
+.yback a, .eliteback a {
     color: var(--first-title);
 }
 
-.yback a:visited {
+.yback a:visited, .eliteback a:visited {
     color: var(--first-title);
 }
 
-.yback a:hover {
+.yback a:hover, .eliteback a:hover {
     color: var(--first-title);
 }
 
@@ -183,6 +185,51 @@ purple: #6e25a4
 .blackback a:hover {
     color: var(--purple);
 }
+
+.eliteback {
+    background-color: var(--elite-first);
+}
+
+.eliteback p {
+    color: var(--second-text);
+}
+
+.eliteback li {
+    color: var(--second-text);
+}
+
+.eliteback_two {
+    background-color: var(--elite-second);
+}
+
+.eliteback_two h1 {
+    color: var(--second-title);
+}
+
+.eliteback_two h2 {
+    color: var(--second-title);
+}
+
+.eliteback_two p {
+    color: var(--second-text);
+}
+
+.eliteback_two li {
+    color: var(--second-text);
+}
+
+.eliteback_two a {
+    color: var(--second-title);
+}
+
+.eliteback_two a:visited {
+    color: var(--second-title);
+}
+
+.eliteback_two a:hover {
+    color: var(--second-title);
+}
+
 
 /* Padding and margins */
 .textdivmargin {
@@ -291,7 +338,7 @@ h2 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: var(--first-bg) ;
+    color: var(--first-bg);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -467,4 +514,30 @@ hr {
     text-transform: uppercase;
     justify-content: space-between;
     word-break: break-word;
+}
+
+.mirror {
+    animation: mirror 2s infinite linear;
+}
+@keyframes mirror {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Wild Card Advancement Elite */
+table, th, td {
+    border: 1px solid black;
+    width: 35%;
+    margin: 0 auto;
+    color: white;
+}
+th, tr:nth-child(even) {
+    background-color: #b6892b;
+}
+tr:nth-child(odd) {
+    background-color: #451c48;
 }
