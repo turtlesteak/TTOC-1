@@ -9,6 +9,10 @@
     url('../media/fonts/TankTrouble.svg') format('svg');;
 }
 
+html  {
+    scroll-behavior: smooth;
+}
+
 /* 
 yellow: #ddb135 
 purple: #6e25a4
@@ -540,4 +544,24 @@ th, tr:nth-child(even) {
 }
 tr:nth-child(odd) {
     background-color: #451c48;
+}
+
+#resultsJump > div::-webkit-scrollbar {
+    width: 10px;
+}
+#resultsJump > div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 5px;
+    background-color: var(--purple);
+    background-color: var(--elite-second);
+    background-color: var(--elite-first);
+}
+#resultsJump > div::-webkit-scrollbar-track {
+    background-color: var(--elite-second);
+    background-color: var(--yellow);
+}
+
+#resultsJump > div {
+    height: 500px;
+    overflow-y: auto;
 }
