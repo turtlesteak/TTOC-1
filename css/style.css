@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 @font-face{
     font-family: 'TankTrouble';
     src:url('../media/fonts/TankTrouble.eot');
@@ -564,4 +565,6 @@ tr:nth-child(odd) {
 #resultsJump > div {
     height: 500px;
     overflow-y: auto;
+.material-symbols-outlined {
+    vertical-align: top;
 }
