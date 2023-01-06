@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
 @font-face{
     font-family: 'TankTrouble';
     src:url('../media/fonts/TankTrouble.eot');
@@ -7,6 +8,10 @@
     url('../media/fonts/TankTrouble.woff') format('woff'),
     url('../media/fonts/TankTrouble.ttf')  format('truetype'),
     url('../media/fonts/TankTrouble.svg') format('svg');;
+}
+
+html  {
+    scroll-behavior: smooth;
 }
 
 /* 
@@ -540,4 +545,39 @@ th, tr:nth-child(even) {
 }
 tr:nth-child(odd) {
     background-color: #451c48;
+}
+
+#resultsJump > div::-webkit-scrollbar {
+    width: 10px;
+}
+#resultsJump > div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    width: 5px;
+    background-color: var(--purple);
+    background-color: var(--elite-second);
+    background-color: var(--elite-first);
+}
+#resultsJump > div::-webkit-scrollbar-track {
+    background-color: var(--elite-second);
+    background-color: var(--yellow);
+}
+
+#resultsJump > div {
+    height: 500px;
+    overflow-y: auto;
+}
+
+
+#crew { 
+    background: linear-gradient(0deg, rgba(241,196,57,1) 0%, rgba(110,37,164,1) 100%);
+
+}
+
+#crew h1, #crew h2, #crew p {
+    color: white;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.material-symbols-outlined {
+    vertical-align: top;
 }
