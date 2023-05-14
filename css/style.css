@@ -615,3 +615,9 @@ tr:nth-child(odd) {
     }
 }
 
+.restricted {
+    transition: .25s;
+}
+.restricted:hover {
+    transform: scale(.5);
+}
