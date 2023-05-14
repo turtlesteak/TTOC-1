@@ -74,7 +74,7 @@
             <div class="yback row center">
                 <div class="col-sm-4 row textdivmargin">
                     <div class="col-sm-4 divpad">
-                        <img class="rotate" src="../media/weapons/rbullet.png">
+                        <img class="rotate" src="../media/weapons/rlaser.png">
                     </div>
 
                     <div class="col-sm-4 divpad">
@@ -115,7 +115,7 @@
             </div>
 
             <div class="pback row" id="Classic">
-                <div class="col-sm-4 textdivmargin textpad divpad">
+                <div class="col-sm-4 textdivmargin textpad divpad" id="Classic">
                     <h1 class="center">
                         Classic
                     </h1>
@@ -139,54 +139,47 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin textpad center divpad">
+                <div class="col-sm-4 textdivmargin textpad center toppad botpad">
                     <h2 class="center">
                         All bullets and weapons allowed
                     </h2>
 
-                    <img src="../media/gamemodes/classic.png">
+                    <img src="/media/gamemodes/classic.png" width="200">
+
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rdt.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshotgun.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshield.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rhoming.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rmine.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                    </div>
                 </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                
                 <div class="col-sm-4 textdivmargin textpad center divpad">
                     <h2 class="center">
                         Tanks starting the round after Referees are destroyed
@@ -205,7 +198,7 @@
             </div>
 
             <div class="yback row" id="Weapons">
-                <div class="col-sm-4 textdivmargin textpad divpad">
+                <div class="col-sm-4 textdivmargin textpad divpad" id="Weapons">
                     <h1 class="center">
                         Weapons
                     </h1>
@@ -241,27 +234,7 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin center textpad divpad">
+                <div class="col-sm-4 textdivmargin center textpad toppad botpad">
                     <h2 class="center">
                         All weapons allowed, no regular bullets
                     </h2>
@@ -269,27 +242,40 @@
                     <p class="center">
                         Shields allowed only after match begins
                     </p>
-
-                    <img src="../media/gamemodes/weapon.png">
-                </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
+                    <img src="/media/gamemodes/weapon.png" width="200">
 
-                        <img class="bottom-right" src="../media/icons/approve.png">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rdt.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshotgun.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
                     </div>
-                    
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/lock.png">
-                    </div>
-                    
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshield.png">
+                            <img class="bottom-right" src="/media/icons/lock.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rhoming.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rmine.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
                     </div>
                 </div>
                 
@@ -311,7 +297,7 @@
             </div>
 
             <div class="pback row" id="Golf">
-                <div class="col-sm-4 textdivmargin textpad divpad">
+                <div class="col-sm-4 textdivmargin textpad divpad" id="Golf">
                     <h1 class="center">
                         Golf
                     </h1>
@@ -351,28 +337,8 @@
                         </li>
                     </ul>
                 </div>
-
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/lock.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-                </div>
                     
-                <div class="col-sm-2 textdivmargin center textpad divpad">
+                <div class="col-sm-4 textdivmargin center textpad">
                     <h2 class="center">
                         Only one bullet allowed at a time
                     </h2>
@@ -381,29 +347,41 @@
                         Dispose of weapons to clear paths if necessary
                     </p>
 
-                    <img src="../media/gamemodes/golf.png">
+                    <img src="/media/gamemodes/golf.png" width="200">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png">
+                            <img class="bottom-right" src="/media/icons/lock.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rdt.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshotgun.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshield.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rhoming.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rmine.png" class="not-allowed">
+                            <img class="bottom-right" src="/media/icons/reject.png">
+                        </div>
+                    </div>
                 </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/reject.png">
-                    </div>
-                </div>
-                
                 <div class="col-sm-4 textdivmargin textpad center divpad">
                     <h2 class="center">
                         Shooter aiming for their target
@@ -458,27 +436,7 @@
                     </ul>
                 </div>
 
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin center textpad divpad">
+                <div class="col-sm-4 textdivmargin center textpad">
                     <h2 class="center">
                         All bullets and weapons allowed
                     </h2>
@@ -487,29 +445,41 @@
                         You can destroy your tank to respawn closer to gold...
                     </p>
 
-                    <img src="../media/gamemodes/goldrush.png">
+                    <img src="../media/gamemodes/goldrush.png" width="200">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rlaser.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rdt.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="/media/weapons/rshotgun.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 botpad">
+                            <img src="/media/weapons/rshield.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-4 botpad">
+                            <img src="/media/weapons/rhoming.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-4 botpad">
+                            <img src="/media/weapons/rmine.png">
+                            <img class="bottom-right" src="/media/icons/approve.png">
+                        </div>
+                    </div>
                 </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                
                 <div class="col-sm-4 textdivmargin textpad center divpad">
                     <h2 class="center">
                         Players rushing for gold
