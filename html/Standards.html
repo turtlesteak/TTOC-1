@@ -15,6 +15,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
         <link rel="stylesheet" href="../css/style.css">
+        <script defer src="dynamic/constants.js"></script>
     </head>
 
     <body>
@@ -30,9 +31,7 @@
                     TankTrouble Online Competition
                 </h1>
 
-                <h2 class="yellow">
-                    TankTrouble's largest competition for over 8 years
-                </h2>
+                <h2 class="yellow" id="dynamic-subTitle"></h2>
             </div>
         </div>
 
@@ -106,28 +105,26 @@
                 <div class="col-sm-8 divpad textpad">
                     <ol class="justify">
                         <li>
-                            All participants must have at least 3 months of active communication in the TankTrouble Community, and 
-                            Players must have at least 5000 wins to sign up and compete.
+                            All participants must have at least 3 months of active communication in the TankTrouble Community, and Players must have at least 5000 wins to sign up and compete.
                         </li>
 
                         <br>
 
                         <li>
-                            Every match is to be watched by a designated Referee who must sign up to 
-                            spectate through the Sign Up form.
+                            Every match is to be watched by a designated Referee who must apply to referee through the Sign Up form.
                         </li>
                         
                         <br>
                         
                         <li>
-                            Referees will keep score in chat during matches (excluding Gold Rush), and will keep 2 tanks signed in to block 
-                            public spectators from entering and interfering with the match.
+                            Referees will keep score in chat during matches (excluding Gold Rush), and will keep 2 tanks signed in to prevent public spectators from entering and interfering with the match. 
+                            Do not leave the match unless the Referee grants you permission to do so.
                         </li>
                         
                         <br>
 
                         <li>
-                            Final match scores, eliminations, and Referee switches must be reported by the match Referee on the Match Thread as soon as possible.
+                            Final match scores, eliminations, and Referee rotations must be reported by the match Referee(s) on the TTOC Forum Thread as soon as possible.
                         </li>
                         
                         <br>
@@ -135,12 +132,9 @@
                         <li>
                             If the Referee does not show up or must leave during the match, Players may: 
                         </li>
-
                         <ul style="list-style-type: lower-alpha;">
                             <li>
-                                Continue the match on their own, with an extra tank signed in by each player.  
-                                The match begins when extra tanks are destroyed.
-                                The final score must be confirmed by both Players in the Match thread.
+                                Continue the match on their own, with an extra tank signed in by each player. The match begins when extra tanks are destroyed. The final score must be confirmed by both Players in the Match thread.
                             </li>
 
                             <li>
@@ -151,32 +145,28 @@
                         <br>
 
                         <li>
-                            Match times will be organised by the TTOC Crew for all Players and Referees based on their 
-                            availability, and will be posted in UTC time. You are responsible for the timezone conversion.
+                            Match times will be organised by the TTOC Crew for all Players and Referees based on their availability, and will be posted in UTC time. You are responsible for the timezone conversion.
                             <a href="TZConverter.html" target="_blank">Check your timezone</a>.
                         </li>
                         
                         <br>
 
                         <li>
-                            Players and Referees must confirm or cancel their match no later than 12 hours before their 
-                            match, otherwise they will be eliminated, and will no longer be allowed to participate in the current TTOC season.
+                            Players and Referees must confirm or cancel their match no later than 12 hours before their match time.
+                            Players and Referees are required to show up to their match if they did not confirm nor cancel their match. If they do not show, they will be removed and will no longer be allowed to participate in the current TTOC season. 
                         </li>
 
                         <br>
                         
                         <li>
-                            If a Player or Referee is absent for more than 10 total minutes anytime during their match, 
-                            they will be eliminated, and will no longer be allowed to participate in the current TTOC season.
-                            If a participant leaves the maze, they must rejoin the original maze. 
-                            New maze creation is at the discretion of the Referee.
+                            If a Player or Referee is absent for more than 10 total minutes anytime during their match, they will be removed, and will no longer be allowed to participate in the current TTOC season. 
+                            If a participant leaves the maze, they must rejoin the original maze. New maze creation is at the discretion of the Referee.
                         </li>
                         
                         <br>
 
                         <li>
-                            The server listed for each match is the meetup server for the Players and the Referee. To 
-                            change the match server, both Players must agree and notify the Referee at the meetup.
+                            The server listed for each match is the meetup server for the Players and the Referee(s). To change the match server, both Players must agree and notify the Referee(s) during the meetup.
                         </li>
                         
                         <br>
@@ -188,15 +178,13 @@
                         <br>
                         
                         <li>
-                            If a gamemode rule is broken during the match, the Player will receive a strike. After three strikes,
-                            each infraction will result in a point for the opponent.
+                            If a gamemode rule is broken during the match, the Player will receive a strike. After three strikes, each infraction will result in a point for the opponent.
                         </li>
                         
                         <br>
 
                         <li>
-                            Participants suspected of sharing accounts or entering more than once with alternate accounts will 
-                            not be allowed to participate in TTOC. Only one tank per person, per season.
+                            Participants suspected of sharing accounts or entering more than once with alternate accounts will not be allowed to participate in TTOC. Only one tank per person, per season.
                         </li>
                         
                         <br>
@@ -329,9 +317,7 @@
                 </div>
     
                 <div class="col-sm-4 divpad textdivmargin">
-                    <p class="yellow ttfont center textdivmargin">
-                        &copy; TTOC Crew 2016 - 2023
-                    </p>
+                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
                 </div>
                 
                 <div class="col-sm-4 divpad">

@@ -15,6 +15,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
         <link rel="stylesheet" href="../css/style.css">
+        <script defer src="dynamic/constants.js"></script>
     </head>
 
     <body>
@@ -30,9 +31,7 @@
                     TankTrouble Online Competition
                 </h1>
 
-                <h2 class="yellow">
-                    TankTrouble's largest competition for over 8 years
-                </h2>
+                <h2 class="yellow" id="dynamic-subTitle"></h2>
             </div>
         </div>
 
@@ -79,11 +78,11 @@
                     </div>
 
                     <div class="col-sm-4 divpad">
-                        <img class="rotate" src="../media/weapons/rlaser.png">
+                        <img class="rotate" src="../media/weapons/rdt.png">
                     </div>
                     
                     <div class="col-sm-4 divpad">
-                        <img class="rotate" src="../media/weapons/rdt.png">
+                        <img class="rotate" src="../media/weapons/rshotgun.png">
                     </div>
                 </div>
 
@@ -102,15 +101,15 @@
 
                 <div class="col-sm-4 row textdivmargin">
                     <div class="col-sm-4 divpad">
-                        <img class="rotate" src="../media/weapons/rshotgun.png">
+                        <img class="rotate" src="../media/weapons/rlaser.png">
                     </div>
 
                     <div class="col-sm-4 divpad">
-                        <img class="rotate" src="../media/weapons/rshield.png">
-                    </div>
-                    
-                    <div class="col-sm-4 divpad">
                         <img class="rotate" src="../media/weapons/rhoming.png">
+                    </div>
+
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rmine.png">
                     </div>
                 </div>
             </div>
@@ -129,65 +128,61 @@
 
                     <ul>
                         <li>
+                            Game Settings: Last Tank Standing, 4 players.
+                        </li>
+                        <li>
                             A normal battle with all the weapons and bullets.
                         </li>
                         <li>
                             A round begins when Referee tanks are destroyed.
                         </li>
                         <li>
-                            First to 15 wins with a two win difference.
+                            Victor: First to 15 wins with a two win difference.
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin textpad center divpad">
+                <div class="col-sm-4 textdivmargin textpad center toppad botpad">
                     <h2 class="center">
                         All bullets and weapons allowed
                     </h2>
 
-                    <img src="../media/gamemodes/classic.png">
+                    <img src="../media/gamemodes/classic.png" width="200">
+
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshield.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rhoming.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rmine.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
                 </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                
                 <div class="col-sm-4 textdivmargin textpad center divpad">
                     <h2 class="center">
                         Tanks starting the round after Referees are destroyed
@@ -218,6 +213,9 @@
 
                     <ul>
                         <li>
+                            Game Settings: Last Tank Standing, 4 players.
+                        </li>
+                        <li>
                             A battle without bullets, only weapons from crates.
                         </li>
                         <li>
@@ -237,32 +235,12 @@
                             A round begins when players are in their claimed corners with a weapon, and Referee tanks are destroyed.
                         </li>
                         <li>
-                            First to 15 wins with a 2 win difference.
+                            Victor: First to 15 wins with a 2 win difference.
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin center textpad divpad">
+                <div class="col-sm-4 textdivmargin center textpad toppad botpad">
                     <h2 class="center">
                         All weapons allowed, no regular bullets
                     </h2>
@@ -270,27 +248,40 @@
                     <p class="center">
                         Shields allowed only after match begins
                     </p>
-
-                    <img src="../media/gamemodes/weapon.png">
-                </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
+                    <img src="../media/gamemodes/weapon.png" width="200">
 
-                        <img class="bottom-right" src="../media/icons/approve.png">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
                     </div>
-                    
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/lock.png">
-                    </div>
-                    
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshield.png" class="restricted">
+                            <img class="bottom-right" src="../media/icons/lock.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rhoming.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rmine.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
                     </div>
                 </div>
                 
@@ -325,7 +316,10 @@
                     
                     <ul>
                         <li>
-                            Players shoot at each other at the same time in a Symmetrical Classic Maze, by only using turning controls.
+                            Game Settings: Last Tank Standing, 4 players, Symmetrical.
+                        </li>
+                        <li>
+                            Players shoot at each other at the same time, by only using turning controls.
                         </li>
                         <li>
                             Aiming, dodging and shooting is only allowed by pivoting on the spot. 
@@ -348,32 +342,12 @@
                             If a player moves forward or back when not allowed, the opponent receives a point, and the round will not count.
                         </li>
                         <li>
-                            First to 10 wins with a 2 win difference.
+                            Victor: First to 10 wins with a 2 win difference.
                         </li>
                     </ul>
                 </div>
-
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/lock.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/reject.png">
-                    </div>
-                </div>
                     
-                <div class="col-sm-2 textdivmargin center textpad divpad">
+                <div class="col-sm-4 textdivmargin center textpad">
                     <h2 class="center">
                         Only one bullet allowed at a time
                     </h2>
@@ -382,29 +356,41 @@
                         Dispose of weapons to clear paths if necessary
                     </p>
 
-                    <img src="../media/gamemodes/golf.png">
+                    <img src="../media/gamemodes/golf.png" width="200">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="restricted">
+                            <img class="bottom-right" src="../media/icons/lock.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshield.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rhoming.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rmine.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                    </div>
                 </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/reject.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/reject.png">
-                    </div>
-                </div>
-                
                 <div class="col-sm-4 textdivmargin textpad center divpad">
                     <h2 class="center">
                         Shooter aiming for their target
@@ -435,51 +421,37 @@
                     </p>
 
                     <ul>
+                        <!-- <li>
+                            Game Settings: TTOC: Gold Rush, 4 players.
+                        </li> -->
                         <li>
-                            Played in Deathmatch mode, players must collect as many Dimitrium, Gold Coins, and kills as possible.
+                            Game Settings: Deathmatch, 4 players.
                         </li>
                         <li>
-                            Dimitrium is worth 6 points, Gold Coins are worth 3 points and opponent deaths are worth 1 point.
+                            Players must earn the highest score by earning as many Dimitrium, Gold Coins, and Kills as possible.
                         </li>
                         <li>
-                            Prevent opponents from collecting points with all bullets and weapons.
+                            Dimitrium is worth 6 points, Gold Coins are worth 3 points each, Kills are worth 1 point, but Suicides are -1 point.
                         </li>
                         <li>
-                            A round begins when Referee tanks reach far corners of the maze, and the Referee types "Go" in the chat.
+                            Prevent your opponent from earning points with all bullets and weapons.
                         </li>
                         <li>
-                            Referee tanks must NOT shoot any bullets.
+                            A round begins after the countdown. Referee tanks must turn in place wherever they spawn. Be aware of inactivity- You must turn both ways periodically to not be kicked.
                         </li>
                         <li>
-                            The player with the highest score after 15 rounds is the winner.
+                            Referee tanks must NOT interrupt gameplay by shooting bullets and/or otherwise.
                         </li>
                         <li>
-                            Scores will be calculated after the match, by a moderator-referee through a player stats page.
+                            The Referee will track and announce the round numbers at the beginning of the rounds.
+                        </li>
+                        <li>
+                            Victor: Player with highest score after 15 rounds. 
                         </li>
                     </ul>
                 </div>
 
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/bullet.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/laser.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/dt.png">
-
-                        <img class="bottom-left" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                    
-                <div class="col-sm-2 textdivmargin center textpad divpad">
+                <div class="col-sm-4 textdivmargin center textpad">
                     <h2 class="center">
                         All bullets and weapons allowed
                     </h2>
@@ -488,29 +460,41 @@
                         You can destroy your tank to respawn closer to gold...
                     </p>
 
-                    <img src="../media/gamemodes/goldrush.png">
+                    <img src="../media/gamemodes/goldrush.png" width="200">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad nopad">
+                            <img src="../media/weapons/rshield.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad nopad">
+                            <img src="../media/weapons/rhoming.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad nopad">
+                            <img src="../media/weapons/rmine.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
                 </div>
                     
-                <div class="col-sm-1 textdivmargin nopad">
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shotgun.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/shield.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-
-                    <div class="weaponunder textpad">
-                        <img src="../media/weapons/homing.png">
-
-                        <img class="bottom-right" src="../media/icons/approve.png">
-                    </div>
-                </div>
-                
                 <div class="col-sm-4 textdivmargin textpad center divpad">
                     <h2 class="center">
                         Players rushing for gold
@@ -659,9 +643,7 @@
                 </div>
     
                 <div class="col-sm-4 divpad textdivmargin">
-                    <p class="yellow ttfont center textdivmargin">
-                        &copy; TTOC Crew 2016 - 2023
-                    </p>
+                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
                 </div>
                 
                 <div class="col-sm-4 divpad">

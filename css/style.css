@@ -232,7 +232,7 @@ purple: #6e25a4
 }
 
 .eliteback_two a:hover {
-    color: var(--second-title);
+    color: var(--first-title);
 }
 
 
@@ -280,6 +280,7 @@ a {
     font-family: 'TankTrouble', sans-serif;
     text-decoration: none;
     font-size: 16px;
+    transition: color .15s ease-in-out;
 }
 
 a:hover {
@@ -478,9 +479,9 @@ hr {
 }
 
 .bottom-right {
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
+    margin-left: -22px;
+    margin-bottom: -55px;
+    transform: rotate(-5deg);
 }
 
 .bottom-left {
@@ -580,4 +581,43 @@ tr:nth-child(odd) {
 
 .material-symbols-outlined {
     vertical-align: top;
+}
+
+.not-allowed:hover {
+    animation-name: shiver;
+    animation-duration: .075s;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+}
+@keyframes shiver {
+    from {
+        transform: translateX(-5px);
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+
+.allowed:hover {
+    animation-name: nod;
+    animation-duration: .25s;
+    animation-direction: alternate;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in-out;
+}
+@keyframes nod {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+
+.restricted {
+    transition: .25s;
+}
+.restricted:hover {
+    transform: scale(.5);
 }

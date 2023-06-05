@@ -12,7 +12,7 @@
         <meta content="TTOC - TankTrouble Online Competition" property="og:title">
         <meta content="A competition made to sort out the best of the best TankTrouble players, by setting up a competition with multiple gamemodes to put your TankTrouble skills to the test! Players compete against each other in one-on-one single elimination style in each gamemode. The top three players recieve prizes to match their accomplishment, while the rest of the players and referees recieve an exclusive accessory!" property="og:description">
         <meta content="TTOC" property="og:site_name">
-        <meta content='https://ttoc.ca/media/special/back.png' property='og:image'>
+        <meta content="https://ttoc.ca/media/special/back.png" property="og:image">
         <meta name="theme-color" content="#F1C439">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -20,6 +20,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
         <link rel="stylesheet" href="css/style.css">
+        <script defer src="html/dynamic/constants.js"></script>
     </head>
 
     <body>
@@ -35,9 +36,7 @@
                     TankTrouble Online Competition
                 </h1>
 
-                <h2 class="yellow">
-                    TankTrouble's largest competition for over 8 years
-                </h2>
+                <h2 class="yellow" id="dynamic-subTitle"></h2>
             </div>
         </div>
 
@@ -108,7 +107,7 @@
                             </h2>
 
                             <p>
-                                TT Premium & 500 Dimitrium
+                                TT Premium &amp; 500 Dimitrium
                                 <br>
                                 OR
                                 <br>
@@ -165,7 +164,7 @@
                         <div class="col"></div>
 
                         <div class="col-sm-4 textdivmargin">
-                            <img src="media/prizes/TTOC20.png">
+                            <img src="media/prizes/TTOC23.png" width="800">
 
                             <h2>
                                 Everyone
@@ -409,9 +408,7 @@
                 </div>
     
                 <div class="col-sm-4 divpad textdivmargin">
-                    <p class="ttfont yellow center textdivmargin">
-                        &copy; TTOC Crew 2016 - 2023
-                    </p>
+                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
                 </div>
                 
                 <div class="col-sm-4 divpad">
