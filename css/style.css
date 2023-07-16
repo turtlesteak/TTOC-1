@@ -515,6 +515,7 @@ hr {
     font-size: 24px;
 }
 
+/* Elite Page */
 .slogan {
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -587,12 +588,11 @@ tr:nth-child(odd) {
     color: white;
 }
 
-
+/* About Page */
 #crew { 
     background: linear-gradient(0deg, rgba(241,196,57,1) 0%, rgba(110,37,164,1) 100%);
 
 }
-
 #crew h1, #crew h2, #crew p {
     color: white;
     filter: drop-shadow(2px 2px 5px black);
@@ -602,6 +602,7 @@ tr:nth-child(odd) {
     vertical-align: top;
 }
 
+/* Gamemodes Crate Interaction */
 .not-allowed:hover {
     animation-name: shiver;
     animation-duration: .075s;
