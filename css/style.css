@@ -548,6 +548,8 @@ tr:nth-child(odd) {
     background-color: #451c48;
 }
 
+/* Results Page */
+  /* Jump to section */
 #resultsJump > div::-webkit-scrollbar {
     width: 10px;
 }
@@ -562,10 +564,27 @@ tr:nth-child(odd) {
     background-color: var(--elite-second);
     background-color: var(--yellow);
 }
-
 #resultsJump > div {
     height: 500px;
     overflow-y: auto;
+}
+  /* Auto color sections */
+#gamemodeResults>:nth-child(odd) {
+    background-color: var(--yellow);
+}
+#gamemodeResults>:nth-child(odd) h1, 
+#gamemodeResults>:nth-child(odd) h2 {
+    color: var(--purple);
+}
+#gamemodeResults>:nth-child(even) {
+    background-color: var(--purple);
+}
+#gamemodeResults>:nth-child(even) h1, 
+#gamemodeResults>:nth-child(even) h2 {
+    color: var(--yellow);
+}
+#gamemodeResults>:nth-child(even) p {
+    color: white;
 }
 
 
