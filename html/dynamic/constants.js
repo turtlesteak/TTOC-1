@@ -1,6 +1,9 @@
-const header = ["TankTrouble's largest competition for over 8 years"];
+const startYear = 2016;
+const currentYear = new Date().getFullYear(); // gets the current year
 
-const footer = ["&copy; TTOC Crew 2016 - 2023"];
+const header = [`TankTrouble's largest competition for over ${currentYear - startYear + 1} years`];
+
+const footer = [`&copy; TTOC Crew ${startYear} - ${currentYear}`];
 
 
 document.getElementById("dynamic-subTitle").innerHTML = header;
