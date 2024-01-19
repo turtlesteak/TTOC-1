@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+            TankTrouble Online Competition
+        </title>
+        
+        <link rel="icon" href="../media/icons/fav.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="../css/style.css">
+        <script defer src="../js/dynamic/constants.js"></script>
+    </head>
+
+    <body id="top">
+        <div class="nonstick whiteback row">
+            <div class="col-sm-3">
+                <img class="toppad botpad textpad imgfull" src="../media/special/logo_512.png">
+            </div>
+            
+            <div class="col-sm-9 textdivmargin divpad">
+                <h1>
+                    TankTrouble Online Competition
+                </h1>
+
+                <h2 class="yellow" id="dynamic-subTitle"></h2>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/elite">Elite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gamemodes">Gamemodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/standards">Standards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/results">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+                    <li class="nav-item textdivmargin">
+                        <a class="btn rbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="yback row center">
+                <div class="col-sm-4 row textdivmargin">
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rbullet.png">
+                    </div>
+
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rdt.png">
+                    </div>
+                    
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rshotgun.png">
+                    </div>
+                </div>
+
+                <div class="col-sm-4 textdivmargin divpad">
+                    <h1 class="center textpad">
+                        Official Gamemodes
+                    </h1>
+
+                    <p class="justify textpad">
+                        TTOC is all about variety. That's why we have four gamemodes for players to compete in, to test players'
+                        skills. Each gamemode targets a different group of skills, while the Classic gamemode is an overall test.
+                        The gamemodes are played one after the other in TTOC, and each have their own separate sign up period.
+                        Depending on popularity, the gamemodes will be played in either 16 or 32 player single-eliminations.
+                    </p>
+                </div>
+
+                <div class="col-sm-4 row textdivmargin">
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rlaser.png">
+                    </div>
+
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rhoming.png">
+                    </div>
+
+                    <div class="col-sm-4 divpad">
+                        <img class="rotate" src="../media/weapons/rmine.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pback row" id="Classic">
+                <div class="col-sm-4 textdivmargin textpad divpad">
+                    <h1 class="center">
+                        Classic
+                    </h1>
+
+                    <p class="justify">
+                        The all-round favourite, classic gamemode.
+                        Putting overall skill to the test, this gamemode is the easiest to follow:
+                        survive by any means necessary in the TankTrouble Mazes!
+                    </p>
+
+                    <ul>
+                        <li>
+                            Game Settings: Last Tank Standing, 4 players.
+                        </li>
+                        <li>
+                            A normal battle with all the weapons and bullets.
+                        </li>
+                        <li>
+                            A round begins when Referee tanks are destroyed.
+                        </li>
+                        <li>
+                            Victor: First to 15 wins with a two win difference.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4 textdivmargin textpad center toppad botpad">
+                    <h2 class="center">
+                        All bullets and weapons allowed
+                    </h2>
+
+                    <img src="../media/gamemodes/classic.png" width="200">
+
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshield.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rhoming.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rmine.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="col-sm-4 textdivmargin textpad center divpad">
+                    <h2 class="center">
+                        Tanks starting the round after Referees are destroyed
+                    </h2>
+
+                    <div class="row">
+                        <div class="col"></div>
+
+                        <div class="col-sm-9 center">
+                            <img src="../media/mazes/classic.png">
+                        </div>
+
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="yback row" id="Weapons">
+                <div class="col-sm-4 textdivmargin textpad divpad">
+                    <h1 class="center">
+                        Weapons
+                    </h1>
+
+                    <p class="justify">
+                        Bullets are underkill. Destroy your opponent with the weapon of your choice. After all,
+                        that crate did spawn just for you! Go on... you know you want that weapon...
+                    </p>
+
+                    <ul>
+                        <li>
+                            Game Settings: Last Tank Standing, 4 players.
+                        </li>
+                        <li>
+                            A battle without bullets, only weapons from crates.
+                        </li>
+                        <li>
+                            Both players start with only one weapon loaded. Players may only choose from the first 2 weapon crates that spawned. 
+                        </li>
+                        <li>
+                            Players will start in one of the outer corners of the maze, which they must "claim" by 
+                            announcing it in chat, while being in the corner with a weapon.
+                        </li>
+                        <li>
+                            Players may pick up and use all weapons infinitely after the round starts.
+                        </li>
+                        <li>
+                            Referee tanks may only pick up crates to help clear paths or allow new weapon crates to spawn.
+                        </li>
+                        <li>
+                            A round begins after:
+                            <ul>
+                                <li>
+                                    Players are equipped with a weapon and
+                                </li>
+                                <li>
+                                    Player tanks are touching the outer maze wall with their turret in their claimed corner tile and
+                                </li>
+                                <li>
+                                    Referee tanks are destroyed
+                                </li>
+                            </ul> 
+                        </li>
+                        <li>
+                            Victor: First to 10 wins with a 2 win difference.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4 textdivmargin center textpad toppad botpad">
+                    <h2 class="center">
+                        All weapons allowed, no regular bullets
+                    </h2>
+
+                    <p class="center">
+                        Shields allowed only after match begins
+                    </p>
+                    
+                    <img src="../media/gamemodes/weapon.png" width="200">
+
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshield.png" class="restricted">
+                            <img class="bottom-right" src="../media/icons/lock.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rhoming.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rmine.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4 textdivmargin textpad center divpad">
+                    <h2 class="center">
+                        Tanks starting in the farthest corners of the maze
+                    </h2>
+
+                    <div class="row">
+                        <div class="col"></div>
+                        
+                        <div class="col-sm-9">
+                            <img src="../media/mazes/weapon.png">
+                        </div>
+                        
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pback row" id="Golf">
+                <div class="col-sm-4 textdivmargin textpad divpad">
+                    <h1 class="center">
+                        Golf
+                    </h1>
+
+                    <p class="justify">
+                        Five bullets is overkill. Slow down! Aim from where you are. The target:
+                        your opponent, of course. If you miss... well then, now you're the target.
+                        You can dodge by turning, but good luck with that!
+                    </p>
+                    
+                    <ul>
+                        <li>
+                            Game Settings: Last Tank Standing, 4 players, Symmetrical.
+                        </li>
+                        <li>
+                            Players shoot at each other at the same time, by only using turning controls.
+                        </li>
+                        <li>
+                            Aiming, dodging and shooting is only allowed by pivoting on the spot. 
+                            You may only move forward and back when travelling to your new shooting position.
+                        </li>
+                        <li>
+                            Each shooting period will be started 15 seconds after players have settled into their shooting position, 
+                            with the Referee counting down to zero. The last 3 seconds of the countdown will be in chat.
+                        </li>
+                        <li>
+                            If both bullets despawn, each player will move to the location of their despawned bullet.
+                        </li>
+                        <li>
+                            If bullets despawn within a three-block radius of eachother, the round is a draw.
+                        </li>
+                        <li>
+                            Dispose of weapons if necessary.
+                        </li>
+                        <li>
+                            If a player moves forward or back when not allowed, the opponent receives a point, and the round will not count.
+                        </li>
+                        <li>
+                            Victor: First to 10 wins with a 2 win difference.
+                        </li>
+                    </ul>
+                </div>
+                    
+                <div class="col-sm-4 textdivmargin center textpad">
+                    <h2 class="center">
+                        Only one bullet allowed at a time
+                    </h2>
+
+                    <p class="center">
+                        Dispose of weapons to clear paths if necessary
+                    </p>
+
+                    <img src="../media/gamemodes/golf.png" width="200">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="restricted">
+                            <img class="bottom-right" src="../media/icons/lock.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshield.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rhoming.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rmine.png" class="not-allowed">
+                            <img class="bottom-right" src="../media/icons/reject.png">
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="col-sm-4 textdivmargin textpad center divpad">
+                    <h2 class="center">
+                        Shooter aiming for their target
+                    </h2>
+
+                    <div class="row">
+                        <div class="col"></div>
+                        
+                        <div class="col-sm-9">
+                            <img src="../media/mazes/golf.png">
+                        </div>
+                        
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="yback row" id="Gold">
+                <div class="col-sm-4 textdivmargin textpad divpad">
+                    <h1 class="center">
+                        Gold Rush
+                    </h1>
+
+                    <p class="justify">
+                        It's the 1840s. You're caught amidst the Siberian Gold Rush!
+                        You must fight for all the gold, or receive a face full of lead.
+                        Rush for the gold or lose, which one will you choose?
+                    </p>
+
+                    <ul>
+                        <!-- <li>
+                            Game Settings: TTOC: Gold Rush, 4 players.
+                        </li> -->
+                        <li>
+                            Game Settings: Deathmatch, 4 players.
+                        </li>
+                        <li>
+                            Players must earn the highest score by earning as many Dimitrium, Gold Coins, and Kills as possible.
+                        </li>
+                        <li>
+                            Dimitrium is worth 10 points, Gold Coins are worth 5 points each, Kills are worth 1 point, but Suicides are -1 point.
+                        </li>
+                        <li>
+                            Prevent your opponent from earning points with all bullets and weapons.
+                        </li>
+                        <li>
+                            A round begins after the countdown. Referee tanks must turn in place wherever they spawn. Be aware of inactivity- You must turn both ways periodically to not be kicked.
+                        </li>
+                        <li>
+                            Referee tanks must NOT interrupt gameplay by shooting bullets and/or otherwise.
+                        </li>
+                        <li>
+                            The Referee will track and announce the round numbers at the beginning of the rounds.
+                        </li>
+                        <li>
+                            Victor: Player with highest score after 15 rounds. 
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4 textdivmargin center textpad">
+                    <h2 class="center">
+                        All bullets and weapons allowed
+                    </h2>
+
+                    <p class="center">
+                        You can destroy your tank to respawn closer to gold...
+                    </p>
+
+                    <img src="../media/gamemodes/goldrush.png" width="200">
+                    <div class="row toppad">
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rbullet.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rlaser.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rdt.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad">
+                            <img src="../media/weapons/rshotgun.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 botpad nopad">
+                            <img src="../media/weapons/rshield.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad nopad">
+                            <img src="../media/weapons/rhoming.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                        <div class="col-sm-3 botpad nopad">
+                            <img src="../media/weapons/rmine.png" class="allowed">
+                            <img class="bottom-right" src="../media/icons/approve.png">
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="col-sm-4 textdivmargin textpad center divpad">
+                    <h2 class="center">
+                        Players rushing for gold
+                    </h2>
+
+                    <div class="row">
+                        <div class="col"></div>
+                        
+                        <div class="col-sm-9">
+                            <img src="../media/mazes/goldrush.png">
+                        </div>
+                        
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- COMMUNITY GAMEMODE STUFF -->
+            <div class="pback row">
+                <div class="col-sm-3 center textdivmargin divpad textpad">
+                    <img class="rotate" src="../media/weapons/tankshield.png">
+                </div>
+
+                <div class="col-sm-6 center textdivmargin divpad center">
+                    <h1>
+                        Official Gamemodes not enough?
+                    </h1>
+                    
+                    <p>
+                        Check out these cool gamemodes made by the TankTrouble Community!
+                    </p>
+
+                    <p class="textdivmargin">
+                        <a class="btn btn-light" href="community">
+                            See Community Gamemodes
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 center textdivmargin divpad textpad">
+                    <img class="rotate" src="../media/weapons/tankshield.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="foot whiteback">
+            <div class="row nopad">
+                <div class="col-sm-2 center nopad textpad divpad textdivmargin">
+                    <h2 class="center">
+                        Created by
+                    </h2>
+
+                    <img src="../media/tanks/5am.png">
+
+                    <h2 class="center">
+                        5am
+                    </h2>
+                </div>
+
+                <div class="col-sm-4 center nopad textdivmargin textpad divpad">
+                    <h2 class="center">
+                        Sponsored by the Developers of TankTrouble
+                    </h2>
+
+                    <div class="row center nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/tanks/Purup.png">
+        
+                            <h2 class="center ttfont">
+                                purup
+                            </h2>
+                    
+                            <p class="center black ttfont">
+                                
+                                Mads Purup
+                            </p>
+                        </div>
+                        
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/tanks/bbc.png">
+        
+                            <h2 class="center ttfont">
+                                bbc
+                            </h2>
+
+                            <p class="center black ttfont">
+                                Brian Bunch Christensen
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 textdivmargin nopad divpad">
+                    <p class="center">
+                        <a href="#top" class="btn fbtn">
+                            Back to top
+                        </a>
+                    </p>
+
+                    <p class="center">
+                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com" target="_blank">
+                            Play TankTrouble Online
+                        </a>
+                    </p>
+                
+                    <p class="center">
+                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com/forum" target="_blank">
+                            Visit the Forum
+                        </a>
+                    </p>
+
+                    <h1 class="center">
+                        Jump to Page
+                    </h1>
+
+                    <h2 class="center textdivmargin">
+                        <a href="/">
+                            Home
+                        </a>
+                        <a href="/gamemodes">
+                            Gamemodes
+                        </a>
+                        <a href="/standards">
+                            Standards
+                        </a>
+                        <a href="/results">
+                            Results
+                        </a>
+                        <a href="/about">
+                            About
+                        </a>
+                        <a class="btn fbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Footer ending -->
+            <div class="row center blackback textdivmargin">
+                <div class="col-sm-4 divpad textdivmargin">
+                    <p class="textdivmargin">
+                        <a href="https://getbootstrap.com" target="_blank">
+                            Made with Bootstrap <span class="material-symbols-outlined">arrow_circle_right</span>
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-4 divpad textdivmargin">
+                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
+                </div>
+                
+                <div class="col-sm-4 divpad">
+                    <p class="textdivmargin">
+                        <a href="https://forms.gle/x4c6cqooDZcPKEs97" target="_blank">
+                            Contact Us <span class="material-symbols-outlined">arrow_circle_right</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

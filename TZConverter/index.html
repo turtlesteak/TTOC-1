@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+            TankTrouble Online Competition
+        </title>
+        
+        <link rel="icon" href="../media/icons/fav.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/time.js"></script>
+        <script defer src="../../js/dynamic/constants.js"></script>
+    </head>
+    <body>
+        <a id="top"></a>
+
+        <div class="nonstick whiteback row">
+            <div class="col-sm-3">
+                <img class="toppad botpad textpad imgfull" src="../media/special/logo_512.png">
+            </div>
+            
+            <div class="col-sm-9 textdivmargin divpad">
+                <h1>
+                    TankTrouble Online Competition
+                </h1>
+
+                <h2 class="yellow" id="dynamic-subTitle"></h2>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Elite.html">Elite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gamemodes.html">Gamemodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Standards.html">Standards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Results.html">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item textdivmargin">
+                        <a class="btn rbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="main">
+            <div class="pback row left">
+                <div class="col-sm-4 textdivmargin center divpad">
+                    <img src="../media/special/TTOC_World_Globe_1.png" width="50%">
+                </div>
+                
+                <div class="col-sm-4 textdivmargin divpad textpad">
+                    <h1 class="center">
+                        Time zone Converter
+                    </h1>
+
+                    <p class="justify">
+                        Need help with converting the time? You're in the right place! 
+                        Follow the steps on the side and you should be set.
+                    </p>
+                </div>
+                
+                <div class="col-sm-4 textdivmargin center divpad">
+                    <img src="../media/special/TTOC_World_Globe_2.png" width="50%">
+                </div>
+            </div>
+
+            <div class="yback">
+                <div class="row">
+                    <div class="col-sm-4 textdivmargin center divpad textpad">
+                        <h1> How To Use </h1>
+                        <ol class="justify">
+                            <li>
+                                Your local and UTC time zones will be loaded on the right side of the screen. 
+                            </li>
+                            <li>
+                                Find the difference between your local time and UTC. 
+                            </li>
+                            <li>
+                                Use this difference as a means of converting time. 
+                            </li>
+                            <li>
+                                Complete the availability section, and submit your entry. 
+                            </li>
+                            <br>
+                        </ol>
+                        <b>
+                            <u>Note:</u> What you enter on the availability will be what the Crew uses. 
+                            <br>
+                            You are reponsible for the correct times. 
+                        </b>
+                    </div>
+                    
+                    <div class="col-sm-8 nopad tz">
+                        <div class="local">
+                            <h1>Local Time:</h1>
+                            <p id="local">
+                                Loading...
+                            </p>
+                        </div>
+                        <div class="utc">
+                            <h1>UTC Time:</h1>
+                            <p id="utc">
+                                Loading...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+        <div class="foot whiteback">
+            <div class="row nopad">
+                <div class="col-sm-2 center nopad textpad divpad textdivmargin">
+                    <h2 class="center">
+                        Created by
+                    </h2>
+
+                    <img src="../media/tanks/5am.png">
+
+                    <h2 class="center">
+                        5am
+                    </h2>
+                </div>
+
+                <div class="col-sm-4 center nopad textdivmargin textpad divpad">
+                    <h2 class="center">
+                        Sponsored by the Developers of TankTrouble
+                    </h2>
+
+                    <div class="row center nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/tanks/Purup.png">
+        
+                            <h2 class="center ttfont">
+                                purup
+                            </h2>
+                    
+                            <p class="center black ttfont">
+                                
+                                Mads Purup
+                            </p>
+                        </div>
+                        
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/tanks/bbc.png">
+        
+                            <h2 class="center ttfont">
+                                bbc
+                            </h2>
+
+                            <p class="center black ttfont">
+                                Brian Bunch Christensen
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 textdivmargin nopad divpad">
+                    <p class="center">
+                        <a href="#top" class="btn fbtn">
+                            Back to top
+                        </a>
+                    </p>
+
+                    <p class="center">
+                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com" target="_blank">
+                            Play TankTrouble Online
+                        </a>
+                    </p>
+                
+                    <p class="center">
+                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com/forum" target="_blank">
+                            Visit the Forum
+                        </a>
+                    </p>
+
+                    <h1 class="center">
+                        Jump to Page
+                    </h1>
+
+                    <h2 class="center textdivmargin">
+                        <a href="/">
+                            Home
+                        </a>
+                        <a href="Gamemodes.html">
+                            Gamemodes
+                        </a>
+                        <a href="Standards.html">
+                            Standards
+                        </a>
+                        <a href="Results.html">
+                            Results
+                        </a>
+                        <a href="About.html">
+                            About
+                        </a>
+                        <a class="btn fbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Footer ending -->
+            <div class="row center blackback textdivmargin">
+                <div class="col-sm-4 divpad textdivmargin">
+                    <p class="textdivmargin">
+                        <a href="https://getbootstrap.com" target="_blank">
+                            Made with Bootstrap <span class="material-symbols-outlined">arrow_circle_right</span>
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-4 divpad textdivmargin">
+                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
+                </div>
+                
+                <div class="col-sm-4 divpad">
+                    <p class="textdivmargin">
+                        <a href="https://forms.gle/x4c6cqooDZcPKEs97" target="_bank">
+                            Contact Us <span class="material-symbols-outlined">arrow_circle_right</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
