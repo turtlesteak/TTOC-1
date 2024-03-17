@@ -12,6 +12,8 @@
 
 html  {
     scroll-behavior: smooth;
+    scroll-padding-top: 59px; 
+        /* height of sticky nav is 60px, allow a 1px overlap */
 }
 
 /* 
