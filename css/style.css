@@ -275,7 +275,7 @@ nav {
 div {
     display: block;
     overflow: hidden;
-    padding: none;
+    padding: 0;
 }
 
 a {
