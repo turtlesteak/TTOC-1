@@ -275,7 +275,7 @@ nav {
 div {
     display: block;
     overflow: hidden;
-    padding: none;
+    padding: 0;
 }
 
 a {
@@ -598,6 +598,22 @@ tr:nth-child(odd) {
 #crew h1, #crew h2, #crew p {
     color: white;
     filter: drop-shadow(2px 2px 5px black);
+}
+#seasonRecap > div:nth-child(even) {
+    box-shadow: 0px 0px 40px #0000008a;
+    background-color: var(--yellow);
+    color: black;
+}
+#seasonRecap > div:nth-child(odd) {
+    box-shadow: 0px 0px 40px #0000008a;
+    background-color: var(--purple);
+    color: white;
+}
+#seasonRecap > div:nth-child(even) h2 {
+    color: var(--purple);
+}
+#seasonRecap > div:nth-child(odd) h1, #seasonRecap > div:nth-child(odd) h2 {
+    color: var(--yellow);
 }
 
 .material-symbols-outlined {
