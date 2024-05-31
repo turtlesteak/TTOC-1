@@ -540,7 +540,6 @@ hr {
 /* Wild Card Advancement Elite */
 table, th, td {
     border: 1px solid black;
-    width: 35%;
     margin: 0 auto;
     color: white;
 }
@@ -549,6 +548,9 @@ th, tr:nth-child(even) {
 }
 tr:nth-child(odd) {
     background-color: #451c48;
+}
+.elite_table, th, td {
+    width: 35%;
 }
 
 /* Results Page */
