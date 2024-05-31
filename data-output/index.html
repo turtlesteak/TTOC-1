@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>
+            TankTrouble Online Competition
+        </title>
+
+        <link rel="icon" href="../media/icons/fav.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../css/style.css">
+        <script defer src="../js/dynamic/constants.js"></script>
+    </head>
+
+    <body id="top">
+        <div class="nonstick whiteback row">
+            <div class="col-sm-3">
+                <img class="toppad botpad textpad imgfull" src="../media/special/logo_512.png">
+            </div>
+
+            <div class="col-sm-9 textdivmargin divpad">
+                <h1>
+                    TankTrouble Online Competition
+                </h1>
+
+                <h2 class="yellow" id="dynamic-subTitle"></h2>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../">Home</a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../elite">Elite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../gamemodes">Gamemodes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../standards">Standards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../results">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about">About</a>
+                    </li>
+                    <li class="nav-item textdivmargin">
+                        <a class="btn rbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="yback row center">
+                <div class="col-sm-4 textdivmargin divpad">
+                    <img src="../media/tanks/up.png">
+                </div>
+
+                <div class="col-sm-4 textdivmargin divpad">
+                    <h1 class="center textpad">
+                        Data Output
+                    </h1>
+
+                    <p class="justify textpad">
+                        The Crew utilizes a custom-built data parser to automate analysis of all entry information.
+                        The parser determines participant eligibility based on entry data. 
+                   </p>
+
+                    <p class="justify textpad">
+                        After the Crew has finished the data parsing and analysis, we will post the roster, as well as a section with the data output.
+                        If your entry failed to meet the criteria, please read the table below.
+                    </p>
+                </div>
+
+                <div class="col-sm-4 textdivmargin divpad">
+                    <img src="../media/tanks/up.png" style="-webkit-transform: scaleX(-1);transform: scaleX(-1);">
+                </div>
+            </div>
+
+            <div class="pback center toppad botpad">
+                <h1>
+                    Error and Summary
+                </h1>
+
+                <table style="width: 80%;">
+                    <thead>
+                        <th>
+                            Error
+                        </th>
+                        <th>
+                            Summary
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Failing forum check</td>
+                            <td>The Crew did not see a confirmation of your entry on the thread</td>
+                        </tr>
+                        <tr>
+                            <td>Failing qualifications check</td>
+                            <td>
+                                &GreaterEqual;3 months, not suspected of rule violations, not banned from TTOC;
+                                <br>Players have the additional requirement of 5,000 wins
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Failing score requirement</td>
+                            <td>Referee Requirement: You did not meet the Referee score requirement</td>
+                        </tr>
+                        <tr>
+                            <td>Failing 7 day time requirement</td>
+                            <td>Player Requirement: You need 1 hour on 7 days</td>
+                        </tr>
+                        <tr>
+                            <td>Failing 4 day time requirement</td>
+                            <td>Player Requirement: You need 3 hours on 4 days</td>
+                        </tr>
+                        <tr>
+                            <td>Failing server requirement</td>
+                            <td>Player Requirement: You did not meet the server requirement</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>
+                    These errors are ordered in steps. If you failed the forum check, we do not know if you failed any subsequent requirements.
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="foot whiteback">
+            <div class="row nopad">
+                <div class="col-sm-2 center nopad textpad divpad textdivmargin">
+                    <h2 class="center">
+                        Created by
+                    </h2>
+
+                    <img src="../media/tanks/5am.png">
+
+                    <h2 class="center">
+                        5am
+                    </h2>
+                </div>
+
+                <div class="col-sm-4 center nopad textdivmargin textpad divpad">
+                    <h2 class="center">
+                        Sponsored by the Developers of TankTrouble
+                    </h2>
+
+                    <div class="row center nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/tanks/Purup.png">
+
+                            <h2 class="center ttfont">
+                                purup
+                            </h2>
+
+                            <p class="center black ttfont">
+                                Mads Purup
+                            </p>
+                        </div>
+
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/tanks/bbc.png">
+
+                            <h2 class="center ttfont">
+                                bbc
+                            </h2>
+
+                            <p class="center black ttfont">
+                                Brian Bunch Christensen
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 textdivmargin nopad divpad">
+                    <p class="center">
+                        <a href="#top" class="btn fbtn">
+                            Back to top
+                        </a>
+                    </p>
+
+                    <p class="center">
+                        <a class="btn btn-light fbtn" role="button" href="https://tanktrouble.com" target="_blank">
+                            Play TankTrouble Online
+                        </a>
+                    </p>
+
+                    <p class="center">
+                        <a class="btn btn-light fbtn" role="button" href="https://discord.com/invite/Y84cYBzwYQ" target="_blank">
+                            Join Discord
+                            <img src="../media/special/discord_mark.svg" height="15" alt="">
+                        </a>
+                    </p>
+
+                    <h1 class="center">
+                        Jump to Page
+                    </h1>
+
+                    <h2 class="center textdivmargin">
+                        <a href="../">
+                            Home
+                        </a>
+                        <a href="../gamemodes">
+                            Gamemodes
+                        </a>
+                        <a href="../standards">
+                            Standards
+                        </a>
+                        <a href="../results">
+                            Results
+                        </a>
+                        <a href="../about">
+                            About
+                        </a>
+                        <a class="btn fbtn" href="https://forms.gle/EiGSJLnbqokavESn9" target="_blank">Sign Up</a>
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Footer ending -->
+            <div class="row center blackback textdivmargin">
+                <div class="col-sm-4 divpad textdivmargin">
+                    <p class="textdivmargin">
+                        <a href="https://getbootstrap.com" target="_blank">
+                            Made with Bootstrap <span class="material-symbols-outlined">arrow_circle_right</span>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-sm-4 divpad textdivmargin">
+                    <p class="ttfont yellow center textdivmargin" id="dynamic-footer"></p>
+                </div>
+
+                <div class="col-sm-4 divpad">
+                    <p class="textdivmargin">
+                        <a href="https://forms.gle/x4c6cqooDZcPKEs97" target="_blank">
+                            Contact Us <span class="material-symbols-outlined">arrow_circle_right</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
