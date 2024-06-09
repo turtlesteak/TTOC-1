@@ -661,3 +661,9 @@ tr:nth-child(odd) {
 .restricted:hover {
     transform: scale(.5);
 }
+
+
+/* Gamemodes Example Images */
+.enlargeImg {
+    cursor: zoom-in;
+}
