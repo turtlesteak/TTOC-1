@@ -549,7 +549,7 @@ th, tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #451c48;
 }
-.elite_table, th, td {
+.elite_table, .elite_table th, .elite_table td {
     width: 35%;
 }
 
