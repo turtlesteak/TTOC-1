@@ -552,6 +552,12 @@ tr:nth-child(odd) {
 .elite_table, .elite_table th, .elite_table td {
     width: 35%;
 }
+.sym_table {
+    min-width: 70%;
+}
+.sym_table th, .sym_table td {
+    padding: 10px;
+}
 
 /* Results Page */
   /* Jump to section */
