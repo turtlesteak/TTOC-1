@@ -552,6 +552,12 @@ tr:nth-child(odd) {
 .elite_table, .elite_table th, .elite_table td {
     width: 35%;
 }
+.sym_table {
+    min-width: 70%;
+}
+.sym_table th, .sym_table td {
+    padding: 10px;
+}
 
 /* Results Page */
   /* Jump to section */
@@ -576,20 +582,33 @@ tr:nth-child(odd) {
   /* Auto color sections */
 #gamemodeResults>:nth-child(odd) {
     background-color: var(--yellow);
+    box-shadow: 0px 0px 40px #0000008a;
 }
-#gamemodeResults>:nth-child(odd) h1, 
-#gamemodeResults>:nth-child(odd) h2 {
+#gamemodeResults>:nth-child(odd) h1 {
     color: var(--purple);
 }
 #gamemodeResults>:nth-child(even) {
     background-color: var(--purple);
+    box-shadow: 0px 0px 40px #0000008a;
 }
-#gamemodeResults>:nth-child(even) h1, 
-#gamemodeResults>:nth-child(even) h2 {
+#gamemodeResults>:nth-child(even) h1 {
     color: var(--yellow);
 }
 #gamemodeResults>:nth-child(even) p {
     color: white;
+}
+  /* Podium text color */
+.firstPlace {
+    color: gold;
+}
+.secondPlace {
+    color: silver;
+}
+.thirdPlace {
+    color: #cd8032;
+}
+.textshadow {
+    filter: drop-shadow(2px 2px 5px black);
 }
 
 /* About Page */
