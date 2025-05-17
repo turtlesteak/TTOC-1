@@ -554,6 +554,7 @@ tr:nth-child(odd) {
 }
 .sym_table {
     min-width: 70%;
+    max-width: 70%;
 }
 .sym_table th, .sym_table td {
     padding: 10px;
